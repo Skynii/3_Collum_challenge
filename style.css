@@ -1,0 +1,130 @@
+*{
+  margin:0;
+  padding: 0;
+
+}
+
+body{
+  width: 100%;
+  background-color: hsl(0, 0%, 95%);
+}
+.wrap{
+  display: flex;
+  font-size: 15px;
+  font-weight: 400px;
+  color:hsla(0, 0%, 100%, 0.75);
+  margin: 10%;
+  padding:5%;
+  font-family: 'Lexend Deca';
+  font-size: 20px;
+  width:80%;
+  height: 50%;
+  line-height: 1.9;
+  border-radius: 30px;
+  
+  
+}
+.coluna1{
+  background-color: hsl(31, 77%, 52%);
+  height: 500px;
+  padding:5%;
+  border-radius: 10px 0 0 10px;
+}
+
+
+.coluna2{
+  background-color: hsl(184, 100%, 22%);
+  height: 500px;
+  padding:5%;
+  
+    
+}
+
+.coluna3{
+  background-color: hsl(179, 100%, 13%);
+  height: 500px;
+  padding:5%;
+  border-radius: 0 10px 10px 0;
+  }
+
+h2{
+  font-weight: 700px;
+  font-family: 'Big Shoulders Display', cursive;
+  color:hsl(0, 0%, 95%);
+  font-size: 75px;
+}
+
+.btn{
+  margin-top: 15%;
+}
+
+
+.btnMore1{
+  color: hsl(31, 77%, 52%);
+  display:flex;
+  justify-content: center;
+  height: 60px;
+  width: 200px;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+  padding-top: 3%;
+  border-radius: 30px;
+}
+
+.btnMore1:hover{
+  color:hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+  border:10px;
+  box-shadow: 10px 5px 5px black;
+}
+.btnMore2{
+  color: hsl(184, 100%, 22%);
+  display:flex;
+  justify-content: center;
+  height: 60px;
+  width: 200px;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+  padding-top: 3%;
+  border-radius: 30px;
+}
+.btnMore2:hover{
+  color:hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
+  border:10px;
+  box-shadow: 10px 5px 5px black;
+}
+
+.btnMore3{
+  color: hsl(179, 100%, 13%);
+  display:flex;
+  justify-content: center;
+  height: 60px;
+  width: 200px;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+  padding-top: 3%;
+  border-radius:30px;}
+
+.btnMore3:hover{
+  color:hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 13%)
+  ;
+  border:10px;
+  box-shadow: 10px 5px 5px black;
+}
+
+ 
+
+
+
+
