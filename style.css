@@ -1,41 +1,47 @@
 *{
   margin:0;
   padding: 0;
-
 }
 
 body{
-  width: 100%;
+  /*width: 100%;*/
   background-color: hsl(0, 0%, 95%);
+  width: 100vw;
+  height: 100vh;
 }
+
 .wrap{
   display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
   font-size: 15px;
   font-weight: 400px;
   color:hsla(0, 0%, 100%, 0.75);
-  margin: 10%;
+  margin: 10% 10% 5% 10%;
   padding:5%;
   font-family: 'Lexend Deca';
   font-size: 20px;
-  width:80%;
-  height: 50%;
+  width:50%;
+  height: 20%;
   line-height: 1.9;
   border-radius: 30px;
-  
-  
+  box-sizing: border-box;
+
 }
 .coluna1{
   background-color: hsl(31, 77%, 52%);
   height: 500px;
-  padding:5%;
+  padding:3%;
   border-radius: 10px 0 0 10px;
+
 }
 
 
 .coluna2{
   background-color: hsl(184, 100%, 22%);
   height: 500px;
-  padding:5%;
+  padding:3%;
   
     
 }
@@ -43,15 +49,15 @@ body{
 .coluna3{
   background-color: hsl(179, 100%, 13%);
   height: 500px;
-  padding:5%;
+  padding:3%;
   border-radius: 0 10px 10px 0;
-  }
+}
 
 h2{
   font-weight: 700px;
   font-family: 'Big Shoulders Display', cursive;
   color:hsl(0, 0%, 95%);
-  font-size: 75px;
+  font-size: 45px;
 }
 
 .btn{
@@ -113,18 +119,12 @@ h2{
   cursor: pointer;
   margin-top: 50px;
   padding-top: 3%;
-  border-radius:30px;}
+  border-radius:30px;
+  }
 
 .btnMore3:hover{
   color:hsl(0, 0%, 95%);
-  background-color: hsl(179, 100%, 13%)
-  ;
+  background-color: hsl(179, 100%, 13%);
   border:10px;
   box-shadow: 10px 5px 5px black;
 }
-
- 
-
-
-
-
